@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<fdmmaterial version="1.3" xmlns="http://www.ultimaker.com/material" xmlns:cura="http://www.ultimaker.com/cura">
+  <metadata>
+    <name>
+      <brand>ice Filaments</brand>
+      <material>PLA</material>
+      <color>Yellow</color>
+      <label>Young Yellow</label>
+    </name>
+    <version>3</version>
+    <description>ice Filaments Generique</description>
+    <adhesion_info />
+    <GUID>cb776fa0-94cf-4f03-818b-690deeb3958a</GUID>
+    <color_code>#FFFF00</color_code>
+    <compatible>True</compatible>
+  </metadata>
+  <properties>
+    <diameter>1.75</diameter>
+    <density>1.24</density>
+  </properties>
+  <settings>
+    <setting key="retraction speed">50.0</setting>
+    <setting key="heated bed temperature">60</setting>
+    <setting key="surface energy">100</setting>
+    <setting key="standby temperature">175</setting>
+    <setting key="adhesion tendency">0</setting>
+    <setting key="print temperature">205.0</setting>
+  </settings>
+</fdmmaterial>

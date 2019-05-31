@@ -1,0 +1,17 @@
+{
+    "version": 2,
+    "name": "Extruder Droit",
+    "inherits": "fdmextruder",
+    "metadata": {
+        "machine": "dagoma_discoeasydual",
+        "position": "0"
+    },
+
+    "overrides": {
+        "extruder_nr": { "default_value": 0 },
+        "machine_nozzle_size": { "default_value": 0.4 },
+        "material_diameter": { "default_value": 1.75 },
+        "machine_extruder_start_code": { "default_value": ";START T0\nG92 E0\nG1 E-3.5 F10000 ;filament retract length\nG92 E0\nG4 P2000\nG1 E1.5 F3000\nG1 E-60 F10000\nG92 E0" },
+        "machine_extruder_end_code": { "default_value": "﻿;END T0\nG92 E0\nG1 E3.5 F3000\nG92 E0\nG1 E60 F3000\nG92 E0\nG1 E-3.5 F5000 ;filament retract length" }
+    }
+}
